@@ -1,0 +1,13 @@
+{
+  "name": "cypress-saucedemo",
+  "version": "1.0.0",
+  "description": "Cypress E2E tests for SauceDemo",
+  "scripts": {
+    "test": "cypress run --browser firefox:dev",
+    "test:open": "cypress open --browser firefox:dev"
+  },
+  "devDependencies": {
+    "cypress": "^16.3.0",
+    "electron": "^45.5.0"
+  }
+}
